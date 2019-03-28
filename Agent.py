@@ -1,23 +1,9 @@
-# Your Agent for solving Raven's Progressive Matrices. You MUST modify this file.
-#
-# You may also create and submit new files in addition to modifying this file.
-#
-# Make sure your file retains methods with the signatures:
-# def __init__(self)
-# def Solve(self,problem)
-#
-# These methods will be necessary for the project's main method to run.
 
-# Install Pillow and uncomment this line to access image processing.
 from PIL import Image, ImageFilter
 import numpy as np
 
 class Agent:
-    # The default constructor for your Agent. Make sure to execute any
-    # processing necessary before your Agent starts solving problems here.
-    #
-    # Do not add any variables to this signature; they will not be used by
-    # main().
+    # The default constructor for Agent
     def __init__(self):
         self.setSelections = {}
         self.setProblem = {}
